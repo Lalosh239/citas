@@ -1,0 +1,86 @@
+/* Agrega un fondo gris oscuro al body para que predomine el gris-negro */
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Cambia el color del texto de los títulos de las tarjetas a blanco */
+.card-title {
+  color: #fff;
+}
+
+/* Cambia el fondo de las tarjetas a gris oscuro */
+.card {
+  background-color: #444;
+}
+
+/* Cambia el color del texto de las etiquetas de las filas del formulario a blanco */
+.col-form-label {
+  color: #fff;
+}
+
+/* Cambia el color del texto de los botones a blanco */
+.btn {
+  color: #fff;
+}
+
+/* Cambia el fondo de los botones a gris oscuro */
+.btn-outline-primary,
+.btn-outline-danger {
+  border-color: #fff;
+  color: #fff;
+}
+
+/* Cambia el color del texto de la lista de citas a blanco */
+.list-group-item {
+  color: #fff;
+}
+
+/* Cambia el fondo del botón Eliminar a rojo oscuro y del botón Modificar a amarillo oscuro */
+.bg-danger {
+  background-color: #990000;
+}
+
+.bg-warning {
+  background-color: #b38600;
+}
+
+
+.moving-image {
+    position: absolute;
+    height: 200px;
+    animation: moveImage 2s linear infinite;
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+    5% {
+        transform: translateX(100px) rotate(-5deg);
+    }
+    10% {
+        transform: translateX(100px) rotate(5deg);
+    }
+    15% {
+        transform: translateX(100px) rotate(-5deg);
+    }
+    20% {
+        transform: translateX(100px) rotate(5deg);
+    }
+    25% {
+        transform: translateX(100px) rotate(-5deg);
+    }
+    30% {
+        transform: translateX(100px) rotate(5deg);
+    }
+    50% {
+        transform: translateX(2035%) rotate(0deg);
+    }
+    75% {
+        transform: translateX(100px) rotate(5deg);
+    }
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
